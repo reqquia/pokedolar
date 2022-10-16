@@ -19,6 +19,11 @@ Desktop <br />
 
 Mobile <br />
 ![App Screenshot](https://reqquia.com.br/cdn/images/pokedolar-mobile.png)
+
+## Deploy
+
+Vercel <br />
+<a href="" > PokeDólar</a>
 ## Instalação
 
 Instale pokedolar com npm
