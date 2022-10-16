@@ -3,7 +3,7 @@ import axios from "axios";
 
 interface Pokemons {
   name: string;
-  id: string;
+  id: bigint;
 }
 
 interface Money {
@@ -29,7 +29,7 @@ const App: React.FC = () => {
   let high = Math.floor(usd?.high * 100) / 100;
   let dolar = Math.floor(high * 100) / 100;
   let idpokemon = dolar * 100;
-
+   
   useEffect(() => {
     axios
       .get("https://pokeapi.co/api/v2/pokemon/"+idpokemon)
@@ -39,7 +39,7 @@ const App: React.FC = () => {
       .catch((err) => {
         console.log(err);
       });
-  }, []);
+  }, [idpokemon]);
 
   return (
     <>
