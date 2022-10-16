@@ -3,8 +3,8 @@ import axios from "axios";
 
 export default function App() {
   
-  const [pokemon, setPokemon] = useState([]);
-  const [usd, setUsd] = useState([]);
+  const [pokemon, setPokemon] = useState<any[]>([]);
+  const [usd, setUsd] = useState<any[]>([]);
 
   useEffect(() => {
     axios

@@ -14,10 +14,10 @@ em reactJS + Tailwindcss.
 
 ## Screenshots
 
-Desktop
+Desktop <br />
 ![App Screenshot](https://reqquia.com.br/cdn/images/pokedolar-desktop.png)
 
-Mobile
+Mobile <br />
 ![App Screenshot](https://reqquia.com.br/cdn/images/pokedolar-mobile.png)
 ## Instalação
 
