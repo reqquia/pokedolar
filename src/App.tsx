@@ -32,7 +32,7 @@ const App: React.FC = () => {
    
   useEffect(() => {
     axios
-      .get("https://pokeapi.co/api/v2/pokemon/"+idpokemon)
+      .get(`https://pokeapi.co/api/v2/pokemon/${idpokemon}`)
       .then((result) => {
         setPokemon(result.data);
       })
