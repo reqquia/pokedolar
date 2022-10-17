@@ -7,7 +7,7 @@ O sistema inspirado utiliza PHP, e eu quis práticar recriando algo
 em reactJS + Tailwindcss.
 
 ## Projeto Inspirado
-<a href="https://acampos.com.br/pokedolar/">https://acampos.com.br/pokedolar/</a>
+<a href="https://acampos.com.br/pokedolar/">https://acampos.com.br/pokedolar/</a> <br />
 <a href="https://pokedolar.com.br/">https://pokedolar.com.br</a>
 
 ## Stacks utilizadas
