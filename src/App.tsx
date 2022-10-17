@@ -58,11 +58,9 @@ const App: React.FC = () => {
                 alt={pokemon?.name}
               />
               <h1 className="text-5xl pt-2 uppercase tracking-wide text-center font-bold text-blue-500">
-                {" "}
-                {pokemon?.name}{" "}
+                {pokemon?.name}
               </h1>
               <h1 className="text-4xl pt-2 pb-3 text-center uppercase tracking-wide font-bold">
-                $1 ={" "}
                 {Number(usd?.high).toLocaleString("pt-br", {
                   style: "currency",
                   currency: "BRL",
