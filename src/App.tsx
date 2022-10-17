@@ -8,6 +8,7 @@ interface Pokemons {
 
 interface Money {
   high: any;
+  bid: any;
 }
 
 const App: React.FC = () => {
@@ -24,9 +25,9 @@ const App: React.FC = () => {
       .catch((err) => {
         console.log(err);
       });
-  }, []);
+  }, [usd]);
 
-  let high = Math.floor(usd?.high * 100) / 100;
+  let high = Math.floor(usd?.bid * 100) / 100;
   let dolar = Math.floor(high * 100) / 100;
   let idpokemon = dolar * 100;
    
@@ -61,7 +62,7 @@ const App: React.FC = () => {
                 {pokemon?.name}
               </h1>
               <h1 className="text-4xl pt-2 pb-3 text-center uppercase tracking-wide font-bold">
-                {Number(usd?.high).toLocaleString("pt-br", {
+                {Number(usd?.bid).toLocaleString("pt-br", {
                   style: "currency",
                   currency: "BRL",
                 })}
