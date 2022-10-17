@@ -30,7 +30,10 @@ const App: React.FC = () => {
   let high = Math.floor(usd?.bid * 100) / 100;
   let dolar = Math.floor(high * 100) / 100;
   let idpokemon = dolar * 100;
-   
+  let price = Number(usd?.bid);
+
+  console.log(usd?.bid);
+
   useEffect(() => {
     axios
       .get(`https://pokeapi.co/api/v2/pokemon/${idpokemon}`)
@@ -62,10 +65,7 @@ const App: React.FC = () => {
                 {pokemon?.name}
               </h1>
               <h1 className="text-4xl pt-2 pb-3 text-center uppercase tracking-wide font-bold">
-                {Number(usd?.bid).toLocaleString("pt-br", {
-                  style: "currency",
-                  currency: "BRL",
-                })}
+                $1 = R$ { price.toLocaleString("pt-BR", {})}
               </h1>
             </div>
           </div>
