@@ -6,6 +6,9 @@ cotação do dólar. Inspirado no projeto do @adrianohcampos.
 O sistema inspirado utiliza PHP, e eu quis práticar recriando algo 
 em reactJS + Tailwindcss.
 
+## Projeto Inspirado
+<a href="https://acampos.com.br/pokedolar/">https://acampos.com.br/pokedolar/</a>
+
 ## Stacks utilizadas
 
 <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
