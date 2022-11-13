@@ -18,10 +18,7 @@ em reactJS + Tailwindcss.
 
 ## Screenshots
 
-Desktop <br />
-![App Screenshot](https://reqquia.com.br/cdn/images/pokedolar-desktop.png)
-
-Mobile <br />
+Exemplo: <br />
 ![App Screenshot](https://reqquia.com.br/cdn/images/pokedolar-mobile.png)
 
 ## Deploy
